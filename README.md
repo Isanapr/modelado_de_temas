@@ -1,1 +1,3 @@
-# modelado_de_temas
+Primer Proyecto Parical: Modelado de Temas
+
+Isabel Navarro  A00823132
