@@ -11,6 +11,13 @@ procesamiento para anonimizar cualquier información sensible e hipervínculos. 
 
 Además de buscar tweets y posts también busca comentarios de Youtube.
 
-### Inovación 2
 
-Además de buscar tweets, posts y comentarios también busca comentarios de Facebook.
+## BERTopic
+
+BERTopic es una técnica de modelado de temas que aprovecha las incrustaciones de BERT y un TF-IDF basado en clases para crear grupos densos que permiten temas fácilmente interpretables mientras se mantienen las palabras importantes en las descripciones de los temas. A cada uno de los conjuntos de datos de las redes sociales (Twitter, Reddit y Youtube) se la aplica  un modelado  de  temas dinámico y un modelado de temas estático de su contenido.
+
+## Hierarchical Dirichlet Process
+
+El proceso jerárquico de Dirichlet (HDP) es un poderoso modelo de membresía mixta para el análisis no supervisado de datos agrupados. A diferencia de su contraparte finita, la asignación latente de Dirichlet, el modelo de tema HDP infiere la cantidad de temas a partir de los datos, no se le asigna. A cada uno de los conjuntos de datos de las redes sociales (Twitter, Reddit y Youtube) se la aplica el modelado de temas de HDP.
+
+
