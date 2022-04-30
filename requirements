@@ -4,3 +4,11 @@ Requirements for running HPD_Model.ipynb
 Install the following packages:
 	⁃	pip install gensim
 	⁃	conda install -c conda-forge wordcloud=1.6.0
+	
+Requirements for running WebScrapping.ipynb
+
+Install the following packages:
+- !pip install praw
+- !pip install scrubadub
+- !pip install spacy
+- !pip install tweepy
