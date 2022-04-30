@@ -1,7 +1,9 @@
 # Primer Proyecto Parical: Modelado de Temas
 
-Isabel Navarro  A00823132
-Oscar Peña A01176808
+**Autores:** <br/>
+Isabel Navarro  A00823132. <br/>
+Oscar Peña A01176808. <br/>
+Ernesto Guzmán A00824855. <br/>
 
 ## Data Scrapping
 
