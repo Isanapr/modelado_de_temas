@@ -20,4 +20,6 @@ BERTopic es una técnica de modelado de temas que aprovecha las incrustaciones d
 
 El proceso jerárquico de Dirichlet (HDP) es un poderoso modelo de membresía mixta para el análisis no supervisado de datos agrupados. A diferencia de su contraparte finita, la asignación latente de Dirichlet, el modelo de tema HDP infiere la cantidad de temas a partir de los datos, no se le asigna. A cada uno de los conjuntos de datos de las redes sociales (Twitter, Reddit y Youtube) se la aplica el modelado de temas de HDP.
 
+Como conclusiones, el modelo de HDP no es ideal para este tipo de conjunto de datos ya que, como se observa en la visualización de resultados del documento HDP.ipynb, las palabras en cada topic no se agruparon de la manera más óptima.
+
 
