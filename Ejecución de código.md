@@ -12,7 +12,7 @@ Ya que se hayan descargado los tres documentos filtrados, se puede comenzar a ap
 
 ## 3. HDP_Model
 
-- En la sección de lectura de datos, se debe introducir el nombre del documento que se quiere analizar (“user_Filtered_Reddit.csv”, “user_Filtered_TW.csv” o “youtube_Filtered_YT.csv”) en la línea:
+* En la sección de lectura de datos, se debe introducir el nombre del documento que se quiere analizar (“user_Filtered_Reddit.csv”, “user_Filtered_TW.csv” o “youtube_Filtered_YT.csv”) en la línea:
 
 		df = pd.read_csv(‘name’,lineterminator='\n')
 
@@ -23,3 +23,10 @@ Ya que se hayan descargado los tres documentos filtrados, se puede comenzar a ap
 	La instruccion se encuentra en el segundo bloque del notebook LDA_model.ipynb
 	
 		`df= pd.read_csv('JoeBiden_Filtered_TW.csv')`
+		
+## 5. NMF_Model
+* En la sección de lectura de datos, se debe introducir el nombre del documento que se quiere analizar (“user_Filtered_Reddit.csv”, “user_Filtered_TW.csv” o “youtube_Filtered_YT.csv”) en la línea:
+
+ 		df = pd.read_csv('name.csv', engine='python')
+		
+		reemplazando ‘name’ por el nombre del .csv.
