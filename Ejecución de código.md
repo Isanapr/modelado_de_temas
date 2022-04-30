@@ -1,4 +1,4 @@
-Ejecución del código:
+# Ejecución del código:
 
 1. scrapping.ipynb
 
@@ -17,3 +17,9 @@ Ya que se hayan descargado los tres documentos filtrados, se puede comenzar a ap
 		df = pd.read_csv(‘name’,lineterminator='\n')
 
 		reemplazando ‘name’ por el nombre del .csv.
+
+4. LDA_model
+	- En la sección de lectura de datos, se debe introducir el nombre del documento que se quiere analizar (“user_Filtered_Reddit.csv”, “user_Filtered_TW.csv” o “youtube_Filtered_YT.csv”).
+	La instruccion se encuentra en el segundo bloque del notebook LDA_model.ipynb
+	
+		df= pd.read_csv('JoeBiden_Filtered_TW.csv')
