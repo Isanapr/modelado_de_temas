@@ -1,0 +1,6 @@
+Requirements for running HPD_Model.ipynb
+
+
+Install the following packages:
+	⁃	pip install gensim
+	⁃	conda install -c conda-forge wordcloud=1.6.0
