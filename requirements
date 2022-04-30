@@ -12,3 +12,4 @@ Install the following packages:
 - !pip install scrubadub
 - !pip install spacy
 - !pip install tweepy
+- !pip install bertopic
