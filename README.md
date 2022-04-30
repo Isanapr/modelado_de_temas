@@ -9,7 +9,7 @@ Natalia González A01382007 <br>
 ## Data Scrapping
 
 En el documento scrapping.ipynb se utiliza la libreria de Tweepy y PRAW para buscar los posts y tweets de un usuario en especifico. Además, se les hace un 
-procesamiento para anonimizar cualquier información sensible e hipervínculos. En el caso de Reddit, también se  remover  menciones  a  otros  subreddits  y  menciones  a  otros usuarios. 
+procesamiento para anonimizar cualquier información sensible e hipervínculos. En el caso de Reddit, también se  remueven  menciones  a  otros  subreddits  y  menciones  a  otros usuarios. 
 
 ### Inovación 1
 
