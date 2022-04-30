@@ -1,6 +1,7 @@
 # Primer Proyecto Parical: Modelado de Temas
 
 Isabel Navarro  A00823132
+Oscar Peña A01176808
 
 ## Data Scrapping
 
