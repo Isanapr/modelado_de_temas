@@ -12,7 +12,7 @@ Alexa Mercado A01634000 <br>
 En el documento scrapping.ipynb se utiliza la libreria de Tweepy y PRAW para buscar los posts y tweets de un usuario en especifico. Además, se les hace un 
 procesamiento para anonimizar cualquier información sensible e hipervínculos. En el caso de Reddit, también se  remueven  menciones  a  otros  subreddits  y  menciones  a  otros usuarios. 
 
-### Inovación 1
+### Innovación 1
 
 Además de buscar tweets y posts también busca comentarios de Youtube.
 
@@ -27,4 +27,4 @@ El proceso jerárquico de Dirichlet (HDP) es un poderoso modelo de membresía mi
 
 Como conclusiones, el modelo de HDP no es ideal para este tipo de conjunto de datos ya que, como se observa en la visualización de resultados del documento HDP_model.ipynb, las palabras en cada topic no se agruparon de la manera más óptima.
 
-## Inovación 2: Latent Semantic Analysis
+## Innovación 2: Latent Semantic Analysis
