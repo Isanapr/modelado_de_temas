@@ -27,4 +27,4 @@ El proceso jerárquico de Dirichlet (HDP) es un poderoso modelo de membresía mi
 
 Como conclusiones, el modelo de HDP no es ideal para este tipo de conjunto de datos ya que, como se observa en la visualización de resultados del documento HDP.ipynb, las palabras en cada topic no se agruparon de la manera más óptima.
 
-
+## Inovación 2: Latent Semantic Analysis
