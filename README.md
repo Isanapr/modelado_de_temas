@@ -1,10 +1,11 @@
-# Primer Proyecto Parical: Modelado de Temas
+# Primer Proyecto Parcial: Modelado de Temas
 
 **Autores:** <br/>
 Isabel Navarro  A00823132. <br/>
 Oscar Peña A01176808. <br/>
 Ernesto Guzmán A00824855. <br/>
 Natalia González A01382007 <br>
+Alexa Mercado A01634000 <br>
 
 ## Data Scrapping
 
