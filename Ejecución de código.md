@@ -1,6 +1,6 @@
 # Ejecución del código:
 
-## 1. scrapping.ipynb
+## 1. scrappingpro.ipynb
 
 - Reddit: Para correr esta sección se debe introducir el nombre del usuario de Reddit en “user” y al final se descargará un documento .csv con el nombre “user_Filtered_Reddit.csv”.
 - Twitter: Para correr esta sección se debe introducir el nombre del usuario de Twitter en “user ID” y al final se descargará un documento .csv con el nombre “user_Filtered_TW.csv”.
@@ -30,3 +30,7 @@ Ya que se hayan descargado los tres documentos filtrados, se puede comenzar a ap
  		df = pd.read_csv('name.csv', engine='python')
 		
 		reemplazando ‘name’ por el nombre del .csv.
+		
+# Comentarios
+
+La carpeta de database tiene conjuntos de datos previamente descargados de scrappingpro.ipynb para utilizar directamente en los modelos.
