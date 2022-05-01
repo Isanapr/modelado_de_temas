@@ -25,11 +25,13 @@ BERTopic es una técnica de modelado de temas que aprovecha las incrustaciones d
 
 El proceso jerárquico de Dirichlet (HDP) es un poderoso modelo de membresía mixta para el análisis no supervisado de datos agrupados. A diferencia de su contraparte finita, la asignación latente de Dirichlet, el modelo de tema HDP infiere la cantidad de temas a partir de los datos, no se le asigna. A cada uno de los conjuntos de datos de las redes sociales (Twitter, Reddit y Youtube) se la aplica el modelado de temas de HDP.
 
-## Innovación 2: Latent Semantic Analysis
+## Innovación 2: Latent Dirichilet Allocation
+
+Ya que el Hierarchical Dirichlet Process es solamente una derivación del Latent Dirichilet Allocation (LDA), son muy parecidos. Esta técnica es una forma popular de modelado de temas estadísticos. En LDA, los documentos se representan como una mezcla de temas y un tema es un conjunto de palabras. Esos temas residen dentro de una capa oculta, también conocida como capa latente.
 
 ## Innovación 3: Non-Negative Matrix Factorization
 
-El método de non-negative matrix factorization es un método de modelado de temas que cae debajo de clustering de la libreria de scikit-learn. Transforma un grupo de diferentes documentos en unos que se pueden resumir como una mezcla de temas que son una mezcla de palabras. Como la mayoría de los algoritmos de aprendizaje automático, NMF funciona comenzando con una suposición de valores para W y H, y minimizando iterativamente la función de pérdida. Por lo general, se implementa actualizando una matriz (ya sea W o H) para cada iteración y continúa minimizando la función de error, ||V — WH || = 0, mientras que los valores de W y H permanecen no negativos, hasta que W y H sean estables.
+El método de non-negative matrix factorization es un método de modelado de temas que cae debajo de clustering de la libreria de scikit-learn. Transforma un grupo de diferentes documentos en unos que se pueden resumir como una mezcla de temas que son una mezcla de palabras. Como la mayoría de los algoritmos de aprendizaje automático, NMF funciona comenzando con una suposición de valores para W y H, y minimizando iterativamente la función de pérdida.
 
 ## Resultados de los modelos utilizados
 
