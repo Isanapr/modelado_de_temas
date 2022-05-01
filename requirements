@@ -1,22 +1,23 @@
-Requirements for running HPD_Model.ipynb
-
-
-Install the following packages:
-	⁃	pip install gensim
-	⁃	conda install -c conda-forge wordcloud=1.6.0
-	
-Requirements for running LDA_model.ipynb
-	- pip install gensim
-	- pip install nltk
-	- python -m nltk.downloader stopwords
-	- pip install wordcloud
-	- pip install pyLDavis
-
 Requirements for running WebScrapping.ipynb
+	- Install the following packages:
+		- !pip install praw
+		- !pip install scrubadub
+		- !pip install spacy
+		- !pip install tweepy
+		- !pip install bertopic
 
-Install the following packages:
-- !pip install praw
-- !pip install scrubadub
-- !pip install spacy
-- !pip install tweepy
-- !pip install bertopic
+Requirements for running BERTopic_model.ipynb
+	- Install the following packages:
+
+Requirements for running HPD_Model.ipynb
+	- Install the following packages:
+		- pip install gensim
+		- conda install -c conda-forge wordcloud=1.6.0
+	
+Requirements for running LDA_model.ipynb:
+	- Install the following packages:
+		- pip install gensim
+		- pip install nltk
+		- python -m nltk.downloader stopwords
+		- pip install wordcloud
+		- pip install pyLDavis
