@@ -35,8 +35,4 @@ El método de non-negative matrix factorization es un método de modelado de tem
 
 Para probar los modelos se utilizo la cuenta de Twitter de Joe Biden para los 3 modelos.
 
-BERTopic:
-
-HDP: Como conclusiones, el modelo de HDP no es ideal para este tipo de conjunto de datos ya que, como se observa en la visualización de resultados del documento HDP_model.ipynb, las palabras en cada topic no se agruparon de la manera más óptima.
-
-NMF: Como conclusiones, el modelo funciona muy bien en separar las palabras en temas como se observa en la visualización de resultados del documento NMF_Model.ipynb. Las palabras se agrupan de manera muy óptima.
+Los modelos de BERTopic, NMF y LDA funcionan muy bien en separar las palabras en temas como se observa en las visualización de resultados los documentos .ipynb de cada uno de los modelos. Las palabras se agrupan de manera muy óptima. Sin embargo el modelo de HDP no es ideal para este tipo de conjunto de datos ya que, como se observa en la visualización de resultados del documento HDP_model.ipynb, las palabras en cada topic no se agruparon de la manera más óptima.
