@@ -4,10 +4,11 @@ Requirements for running WebScrapping.ipynb
 		- !pip install scrubadub
 		- !pip install spacy
 		- !pip install tweepy
-		- !pip install bertopic
 
 Requirements for running BERTopic_model.ipynb
 	- Install the following packages:
+		- !pip install bertopic
+		- !pip install sklearn
 
 Requirements for running HPD_Model.ipynb
 	- Install the following packages:
